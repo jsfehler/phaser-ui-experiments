@@ -12,7 +12,7 @@ var config = {
 var game = new Phaser.Game(config);
 
 function preload() {
-    var assetRoot = '../../assets/player_select/';
+    var assetRoot = '../assets/player_select/';
     this.load.image("background", assetRoot + "bg.png");
 
     this.load.image("randoIcon", assetRoot + "random.png");
